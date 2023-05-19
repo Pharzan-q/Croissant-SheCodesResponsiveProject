@@ -4,9 +4,37 @@ body {
   font-family: monospace;
 }
 
+.background {
+  background-image: linear-gradient(
+      0deg,
+      rgba(62, 46, 56, 0.8),
+      rgba(192, 187, 191, 0.741)
+    ),
+    url("/images/croissant-6.jpg");
+  height: 100vh;
+  background-size: cover;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 h1 {
   font-size: 80px;
 }
 p {
   font-size: 18px;
+}
+
+.email-link {
+  font-size: 24px;
+  color: rgb(13, 40, 105);
+  font-weight: 800;
+}
+
+.contact-head {
+  margin-top: 100px;
+  margin-bottom: 48px;
+  font-size: 60px;
+  font-weight: 600;
 }
